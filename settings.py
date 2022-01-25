@@ -1,2 +1,2 @@
-user='THISWONTWORK'
-passwd='THISISNTAPASSWORD'
+user='EDIT_USER_EMAIL@hotmail.com'
+passwd='EDIT PASSWORD HERE'

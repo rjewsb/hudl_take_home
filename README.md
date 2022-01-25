@@ -5,4 +5,4 @@ git clone \
 cd hudl_take_home \
 pip install \
 edit settings.txt to a valid test user \
-pytest test_* \
+pytest test_* 

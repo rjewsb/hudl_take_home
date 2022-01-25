@@ -17,3 +17,9 @@ def test_valid_login(browser):
     page.load()
     page.login(user,passwd)
     page.validate_login_sucess()
+
+def test_wrong_password_login(browser):
+    page =  LoginPage(browser)
+    page.load()
+    page.login(user)
+    page.validate_failed_login()
